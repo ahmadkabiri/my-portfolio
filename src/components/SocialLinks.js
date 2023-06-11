@@ -11,7 +11,7 @@ function SocialLinks() {
           Linkedin <FaLinkedin size={30} />
         </>
       ),
-      href:"https://linkedin.com/in/kabiriahmad" ,
+      href:`https://linkedin.com/in/kabiriahmad` ,
       style:"rounded-tr-md"
     },
   
@@ -22,7 +22,7 @@ function SocialLinks() {
             GitHub <FaGithub size={30} />
           </>
         ),
-        href:"https://github.com/" ,
+        href:`https://github.com/` ,
 
       },
       {
@@ -32,7 +32,7 @@ function SocialLinks() {
             Gmail <HiOutlineMail size={30} />
           </>
         ),
-        href:"mailto:ahmadkabiri@gmail.com" ,
+        href:`mailto:ahmadkabiri@gmail.com` ,
 
       },
       {
@@ -57,7 +57,8 @@ function SocialLinks() {
             className="flex justify-between items-center w-full text-white"
             download={download}
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
+
           >
            {child}
           </a>
